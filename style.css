@@ -1,0 +1,258 @@
+/*
+WEBFONTS*/
+
+@font-face {
+font-family: 'Today SH Medium';
+src: url('F/TodaySHMed.ttf');
+}
+
+@font-face {
+font-family: 'Today SH Regular';
+src: url('F/TodaySHReg.ttf');
+}
+
+
+/*
+STRUCTURAL ELEMENTS*/
+
+body {
+background-color: #0c73bc;
+font-size: 12pt;
+}
+
+#bottom {
+width: 1000px;
+min-height: 250px;
+background: #FFFFFF;
+border-radius: 0px 0px 0px 0px;
+margin-bottom: 0px;
+border: 0px solid;
+padding-bottom: 20px;
+overflow: auto;
+}
+
+#container {
+width: 1000px;
+min-height: 250px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 70px;
+border-radius: 10px;
+box-shadow: 0px 2px 5px #000000;
+border: 0px solid;
+}
+
+#content {
+margin: 0px auto 0px auto;
+padding: 20px 0px 20px 0px;
+width: 920px;
+font-family: 'Today SH Regular', Tahoma, 'Century Gothic', sans-serif;
+font-size: 1em;
+line-height: 1.5;
+letter-spacing: 0.09em;
+color: #000000;
+border: 0px solid;
+}
+
+.fitframe {
+width: 100%;
+height: 100%;
+}
+
+#logo {
+width: 175px;
+height: 195px;
+margin-top: -140px;
+border: 0px solid;
+text-align: center;
+float: left;
+}
+
+.wiki {
+width: 135px;
+height: 183px;
+margin-top: -140px;
+border: 0px solid;
+text-align: center;
+float: left;
+}
+
+#menu {
+width: 823px;
+height: 60px;
+border: 0px solid;
+text-align: left;
+line-height: 3.5em;
+float: right;
+font-family: Today SH Medium;
+font-size: 1.2em;
+}
+
+#topbar {
+width: 1000px;
+height: 60px;
+border-radius: 10px 10px 0px 0px;
+background-color: #00b0d9;
+text-align: center;
+border: 0px solid;
+}
+
+#welcome {
+width: 595px;
+height: 85px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+margin-top: 40px;
+border: 0px solid;
+position: relative;
+left: 1px;
+}
+
+
+/*
+BASIC PROPERTY STYLES*/
+
+#content a, a:link, a:visited, a:hover, a:active {
+color: #0c73bc;
+text-decoration: underline;
+margin: 0px;
+}
+
+h1 {
+font-family: 'Today SH Medium';
+font-size: 2.3em;
+line-height: 0.5em;
+}
+
+h2 {
+font-family: 'Today SH Medium';
+font-size: 2em;
+line-height: 1em;
+}
+
+h3 {
+font-size: 1.5em;
+line-height: .7em;
+margin-bottom: -5px;
+}
+
+img {
+border: 0px;
+}
+
+.caption {
+font-size: 0.7em;
+margin: -15px auto 0px 0px;;
+font-style: italic;
+text-align: center;
+}
+
+p{
+margin: 15px auto 0px auto;
+text-align: justify;
+}
+
+span {
+font-family: 'MS Gothic', 'Hiragino Kaku Gothic Pro';
+font-size: 1.4em;
+}
+
+/*
+MENU STYLES*/
+
+#menu a, a:link, a:visited, a:active {
+text-decoration: none;
+color: #c3e6e2;
+margin: 0px 30px 0px 20px;
+-webkit-transition: all .5s ease-out;
+-moz-transition: all .5s ease-out;
+-o-transition: all .5s ease-out;
+transition: all .5s ease-out;
+}
+
+#menu a:hover {
+color: #ffffff;
+text-shadow: #84ffb7 0px -0px 20px;
+}
+
+
+
+/*
+YAMANASHI MAP STYLES*/
+
+#map_container {
+width: 440px;
+border: 0px solid blue;
+float: left;
+margin: 5px;
+}
+
+#mapbottom {
+overflow: auto;
+background-color: #FFFFFF;
+}
+
+#mapcontent {
+width: 440px;
+height: 200px;
+border: 0px solid red;
+float: left;
+margin: 5px;
+font-family: 'Today SH Regular', Tahoma, 'Century Gothic', sans-serif;
+font-size: 1em;
+line-height: 1.5;
+letter-spacing: 0.09em;
+color: #000000;
+text-align: justify;
+}
+
+#mapwrap {
+width: 900px;
+margin: 0px auto;
+overflow: auto;
+border: 0px solid green;
+}
+
+#placename {
+height: 80px;
+width: 200px;
+border: 0px solid;
+position: relative;
+bottom: 100px;
+left: 170px;
+border: 0px solid red;
+}
+
+#placename p {
+font-family: "Today SH Medium";
+line-height: 1.5em;
+font-size: 1.6em;
+text-align: center;
+}
+
+#preload {
+display: none;
+}
+
+
+
+/*
+MISCELLANEOUS STUFF*/
+
+#colorfilter {
+position: absolute;
+top: 0px;
+left: 0px;
+background-color: rgba(220, 255, 0, 0.0);
+height: 100%;
+width: 100%;
+pointer-events: none;
+}  
+
+#zp {
+width: 100%;
+height: 600px;
+border: 0px solid;
+}
